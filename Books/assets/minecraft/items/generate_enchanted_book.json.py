@@ -10,8 +10,16 @@ def load_json(input_file):
     current_directory = os.path.dirname(__file__)
     return read_json(current_directory + "/" + input_file)
 
-def enchant_level_module():
-    level_data = load_json("enchant_levels.json")
+
+def is_iterable(obj):
+    try:
+        iter(obj)
+        return True
+    except TypeError:
+        return False
+
+def enchant_level_module(json_name = "enchant_levels.json"):
+    level_data = load_json(json_name)
     level_format = {
             "type": "minecraft:condition",
             "property": "minecraft:component",
@@ -40,9 +48,6 @@ def enchant_level_module():
                 "property": "minecraft:component",
                 "predicate": "stored_enchantments",
                 "value": [
-                    {
-                        "levels":level
-                    }
                 ],
                 "on_true": {
                     "type": "minecraft:model",
@@ -52,6 +57,15 @@ def enchant_level_module():
                     "type": "minecraft:model",
                 }
             })
+            if is_iterable(level):
+                for level_dat in level:
+                    format_pointer["value"].append({
+                        "levels":level_dat
+                    })
+            else:
+                format_pointer["value"].append({
+                    "levels":level
+                })
             format_pointer = format_pointer["on_false"]
     format_pointer.update(fallback_method)
     return json.dumps(level_format, indent=4)
@@ -141,4 +155,10 @@ json_read = [
 json_stuff =[]
 for json_file in json_read:
     json_stuff.append(enchant_type_module(json_file))
-export_json(enchant_finish_module(enchant_composite_module(*json_stuff, enchant_level_module())))
+level_read = [
+    "enchant_levels.json"
+]
+level_stuff =[]
+for level_file in level_read:
+    level_stuff.append(enchant_level_module(level_file))
+export_json(enchant_finish_module(enchant_composite_module(*json_stuff, *level_stuff)))

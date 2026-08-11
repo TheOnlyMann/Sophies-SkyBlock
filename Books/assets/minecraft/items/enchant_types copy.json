@@ -24,6 +24,13 @@
         "minecraft:sharpness","minecraft:bane_of_arthropods","minecraft:smite","minecraft:impaling","minecraft:sweeping_edge","minecraft:knockback","minecraft:fire_aspect","minecraft:wind_burst","minecraft:density","minecraft:breach",
 
         
+
+        "cartographer_custom_enchantments:weapon/damage/melee/leverage","cartographer_custom_enchantments:weapon/damage/melee/rushdown",
+
+        
+        "minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:punch","minecraft:flame","minecraft:quick_charge",
+
+        "cartographer_custom_enchantments:weapon/damage/ranged/overcharge","cartographer_custom_enchantments:weapon/damage/ranged/point_blank","cartographer_custom_enchantments:weapon/damage/ranged/sharpshot"
         
         ],#passive enchantments
     "sophie:item/enchant_books/book_foraging": [
