@@ -1,0 +1,8 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "sophie:item/enchant_books/armor/ulti_habanero_tactics"
+    },
+    "gui_light": "front",
+    "display": {}
+}

@@ -1,0 +1,21 @@
+{
+    "sophie:item/enchant_books/emblem_arrow": [
+        "cartographer_custom_enchantments:weapon/unique/ranged/barbed","cartographer_custom_enchantments:weapon/unique/ranged/barrage","cartographer_custom_enchantments:weapon/unique/ranged/collapse","cartographer_custom_enchantments:weapon/unique/ranged/correction","cartographer_custom_enchantments:weapon/unique/ranged/fleetfoot","cartographer_custom_enchantments:weapon/unique/ranged/grappling","cartographer_custom_enchantments:weapon/unique/ranged/ricochet","cartographer_custom_enchantments:weapon/unique/ranged/ripper","cartographer_custom_enchantments:weapon/unique/ranged/shrapnel",
+
+        "cartographer_custom_enchantments:curse/jamming","cartographer_custom_enchantments:curse/heaviness"
+    ], 
+    "sophie:item/enchant_books/emblem_sword": [
+
+
+        "minecraft:sharpness","minecraft:bane_of_arthropods","minecraft:smite","minecraft:impaling","minecraft:sweeping_edge","minecraft:knockback","minecraft:fire_aspect","minecraft:wind_burst","minecraft:density","minecraft:breach",
+
+        
+        "cartographer_custom_enchantments:weapon/unique/melee/ambushing","cartographer_custom_enchantments:weapon/unique/melee/cleaving","cartographer_custom_enchantments:weapon/unique/melee/lunging","cartographer_custom_enchantments:weapon/unique/melee/quick_strike","cartographer_custom_enchantments:weapon/unique/melee/riposte","cartographer_custom_enchantments:weapon/unique/melee/slamming","cartographer_custom_enchantments:weapon/unique/melee/throwable","cartographer_custom_enchantments:weapon/unique/melee/thrusting"
+        
+    ],
+    "sophie:item/enchant_books/emblem_sheild": [
+        "cartographer_enchantment_rework:hazard_protection","cartographer_enchantment_rework:melee_protection","cartographer_enchantment_rework:ranged_protection","minecraft:blast_protection","minecraft:fire_protection","minecraft:projectile_protection","minecraft:protection",
+
+        "cartographer_custom_enchantments:curse/melee_fragility","cartographer_custom_enchantments:curse/projectile_fragility","minecraft:binding_curse"
+        ]
+}
