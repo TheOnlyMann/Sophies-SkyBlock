@@ -150,7 +150,9 @@ def export_json(json_data, output_file="enchanted_book.json"):
 
 json_read = [
     "enchant_types.json",
-    "enchant_meleeranged.json"
+    "enchant_emblem_sub.json",
+    "enchant_meleeranged.json",
+    "enchant_individual.json"
 ]
 json_stuff =[]
 for json_file in json_read:
