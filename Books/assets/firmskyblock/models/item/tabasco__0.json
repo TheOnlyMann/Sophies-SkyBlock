@@ -1,8 +1,0 @@
-{
-	"parent": "minecraft:item/generated",
-	"textures": {
-		"layer0": "sophie:item/enchant_books/book_weaponry",
-		"layer1": "sophie:item/enchant_books/weaponry/tabasco",
-		"layer2": "sophie:item/numlays/two"
-	}
-}

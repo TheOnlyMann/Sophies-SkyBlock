@@ -1,4 +1,0 @@
-{
-	condition: "animatedTextures",
-	fallback: "assets/sophie/textures/item/enchant_books/multi/telekinesis_alt.png"
-}

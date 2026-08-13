@@ -1,8 +1,0 @@
-{
-	"parent": "minecraft:item/generated",
-	"textures": {
-		"layer0": "sophie:item/enchant_books/book_armor",
-		"layer1": "sophie:item/enchant_books/armor/forest_pledge",
-		"layer2": "sophie:item/numlays/three"
-	}
-}

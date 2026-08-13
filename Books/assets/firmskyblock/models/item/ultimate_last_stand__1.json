@@ -1,6 +1,0 @@
-{
-	"parent": "firmskyblock:item/ultimate_last_stand__0",
-	"textures": {
-		"layer2": "sophie:item/numlays/one"
-	}
-}

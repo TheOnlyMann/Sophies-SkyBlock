@@ -1,6 +1,0 @@
-{
-	"parent": "firmskyblock:item/spiked_hook__0",
-	"textures": {
-		"layer2": "sophie:item/numlays/four"
-	}
-}

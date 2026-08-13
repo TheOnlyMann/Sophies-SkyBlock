@@ -1,6 +1,0 @@
-{
-	"parent": "firmskyblock:item/syphon__0",
-	"textures": {
-		"layer2": "sophie:item/numlays/five"
-	}
-}

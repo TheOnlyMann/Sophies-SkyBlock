@@ -1,6 +1,0 @@
-{
-	"parent": "firmskyblock:item/quantum__3",
-	"textures": {
-		"layer2": "sophie:item/numlays/four"
-	}
-}

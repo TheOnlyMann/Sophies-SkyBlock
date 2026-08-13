@@ -1,6 +1,0 @@
-{
-	"parent": "firmskyblock:item/forest_pledge__3",
-	"textures": {
-		"layer2": "sophie:item/numlays/five"
-	}
-}

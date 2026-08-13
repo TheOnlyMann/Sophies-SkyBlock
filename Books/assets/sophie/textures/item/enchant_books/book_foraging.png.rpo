@@ -1,7 +1,0 @@
-{
-	condition: "bookStyle.sophie",
-	fallback: [
-		"assets/sophie/textures/item/enchant_books/legacy_foraging.png",
-		"assets/minecraft/textures/item/enchanted_book.png"
-	]
-}

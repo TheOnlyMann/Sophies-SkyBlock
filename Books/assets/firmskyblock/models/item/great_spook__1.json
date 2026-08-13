@@ -1,6 +1,0 @@
-{
-	"parent": "firmskyblock:item/great_spook__0",
-	"textures": {
-		"layer2": "sophie:item/numlays/one"
-	}
-}

@@ -1,6 +1,0 @@
-{
-	"parent": "firmskyblock:item/depth_strider__0",
-	"textures": {
-		"layer2": "sophie:item/numlays/three"
-	}
-}
