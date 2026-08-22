@@ -1,0 +1,10 @@
+Modification Author: TheOnlyMann
+
+Modification Requirement
+display ~200 custom/vanilla enchants added/modified/etc from [Cartographer 2.0 datapack](https://github.com/pearuhdox/Cartographer-2.0), with using minecraft's item model system
+
+Modification Details
+Books\assets\sophie\generate_itemmodel.py was added to automatically convert existing textures into textures for the same namespace/directory
+Books\assets\minecraft\items\generate_enchanted_book.json.py and accompanying files were added to automatically generate enchanted book composite json for the enchanted_book.json for minecraft's item model
+other unneeded file structure such as firmskyblock/skyblock directory has been deleted to make resource packing a bit easier
+
