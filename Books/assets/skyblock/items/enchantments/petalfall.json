@@ -1,0 +1,54 @@
+{
+	"model": {
+		"type": "minecraft:range_dispatch",
+		"property": "catharsis:enchanted_book_level",
+		"entries": [
+			{
+				"threshold": 1,
+				"model": {
+					"type": "minecraft:model",
+					"model": "firmskyblock:item/petalfall__1"
+				}
+			},
+			{
+				"threshold": 2,
+				"model": {
+					"type": "minecraft:model",
+					"model": "firmskyblock:item/petalfall__2"
+				}
+			},
+			{
+				"threshold": 3,
+				"model": {
+					"type": "minecraft:model",
+					"model": "firmskyblock:item/petalfall__3"
+				}
+			},
+			{
+				"threshold": 4,
+				"model": {
+					"type": "minecraft:model",
+					"model": "firmskyblock:item/petalfall__4"
+				}
+			},
+			{
+				"threshold": 5,
+				"model": {
+					"type": "minecraft:model",
+					"model": "firmskyblock:item/petalfall__5"
+				}
+			},
+			{
+				"threshold": 6,
+				"model": {
+					"type": "minecraft:model",
+					"model": "firmskyblock:item/petalfall__6"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "firmskyblock:item/petalfall__0"
+		}
+	}
+}

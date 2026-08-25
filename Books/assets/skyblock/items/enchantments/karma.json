@@ -1,0 +1,54 @@
+{
+	"model": {
+		"type": "minecraft:range_dispatch",
+		"property": "catharsis:enchanted_book_level",
+		"entries": [
+			{
+				"threshold": 1,
+				"model": {
+					"type": "minecraft:model",
+					"model": "firmskyblock:item/karma__1"
+				}
+			},
+			{
+				"threshold": 2,
+				"model": {
+					"type": "minecraft:model",
+					"model": "firmskyblock:item/karma__2"
+				}
+			},
+			{
+				"threshold": 3,
+				"model": {
+					"type": "minecraft:model",
+					"model": "firmskyblock:item/karma__3"
+				}
+			},
+			{
+				"threshold": 4,
+				"model": {
+					"type": "minecraft:model",
+					"model": "firmskyblock:item/karma__4"
+				}
+			},
+			{
+				"threshold": 5,
+				"model": {
+					"type": "minecraft:model",
+					"model": "firmskyblock:item/karma__5"
+				}
+			},
+			{
+				"threshold": 6,
+				"model": {
+					"type": "minecraft:model",
+					"model": "firmskyblock:item/karma__6"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "firmskyblock:item/karma__0"
+		}
+	}
+}

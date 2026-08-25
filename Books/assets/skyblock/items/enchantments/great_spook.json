@@ -1,0 +1,19 @@
+{
+	"model": {
+		"type": "minecraft:range_dispatch",
+		"property": "catharsis:enchanted_book_level",
+		"entries": [
+			{
+				"threshold": 1,
+				"model": {
+					"type": "minecraft:model",
+					"model": "firmskyblock:item/great_spook__1"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "firmskyblock:item/great_spook__0"
+		}
+	}
+}

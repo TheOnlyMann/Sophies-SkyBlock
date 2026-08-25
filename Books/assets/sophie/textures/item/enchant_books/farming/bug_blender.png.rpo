@@ -1,0 +1,6 @@
+{
+	condition: "!bookStyle.legacy",
+	fallback: [
+		"assets/sophie/textures/item/enchant_books/farming/bug_blender_legacy.png"
+	]
+}

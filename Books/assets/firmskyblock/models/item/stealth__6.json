@@ -1,0 +1,6 @@
+{
+	"parent": "firmskyblock:item/stealth__0",
+	"textures": {
+		"layer2": "sophie:item/numlays/six"
+	}
+}
