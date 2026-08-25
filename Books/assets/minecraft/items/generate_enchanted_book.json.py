@@ -152,7 +152,6 @@ json_read = [
     "enchant_types.json",
     "enchant_emblem_sub.json",
     "enchant_meleeranged.json",
-    "enchant_individual.json",
     "enchant_convert_final.json"
 ]
 json_stuff =[]

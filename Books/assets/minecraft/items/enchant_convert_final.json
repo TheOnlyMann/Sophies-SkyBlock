@@ -12,7 +12,7 @@
 "sophie:item/enchant_books/armor/ulti_no_pain" : "cartographer_custom_enchantments:passive/sidestep",
 "sophie:item/enchant_books/multi/ulti_wise" : "cartographer_custom_enchantments:passive/soulbound",
 "sophie:item/enchant_books/weaponry/fire_aspect_blue" : "cartographer_custom_enchantments:passive/soulfire",
-"sophie:item/enchant_books/weaponry/devine_gift" : "cartographer_custom_enchantments:passive/starfall",
+"sophie:item/enchant_books/weaponry/devine_gift" : ["cartographer_custom_enchantments:passive/starfall","cartographer_custom_enchantments:passive/courageous"],
 "sophie:item/enchant_books/armor/ulti_last_stand" : ["cartographer_custom_enchantments:passive/steadfast","cartographer_custom_enchantments:passive/hardened"],
 "sophie:item/enchant_books/weaponry/ulti_chimera" : "cartographer_custom_enchantments:passive/storm",
 "sophie:item/enchant_books/weaponry/thunderbolt" : "cartographer_custom_enchantments:passive/surge",
